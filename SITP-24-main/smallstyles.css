@@ -1,0 +1,85 @@
+.section-title {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.logo img{
+  margin-top: 8%;
+} 
+
+.section-title h1 {
+  margin-top: 3%;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: white;
+}
+
+.section-title h1::after {
+
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 3px;
+  background: white;
+  bottom: 0;
+  left: 40%;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.flickity-viewport {
+
+  height: 1100px !important;
+}
+
+.carousel-course-card-cell {
+  height: 1000px;
+  width: 70%;
+}
+
+.card-cell-content {
+  width: 90%;
+  padding-top: 5rem;
+  flex-grow: 1;
+  height: 50%;
+}
+
+.card-cell-info h4 {
+  font-size: 1.5rem;
+}
+
+.card-cell-thumbnail {
+  height: 40%;
+}
+
+.card-cell-thumbnail img {
+  height: 100%;
+}
+
+.card-cell-text h2 {
+  font-size: 2rem;
+}
+
+.card-cell-text h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.card-cell-info h4 {
+  font-size: 1.5rem;
+}
+
+.but{
+  font-size: 2.5rem !important;
+}
+
+.card-cell-button {
+  position: relative;
+  bottom: 3rem;
+}

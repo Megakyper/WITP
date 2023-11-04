@@ -1,0 +1,133 @@
+section#contactus {
+    border-bottom: 2px solid #0c356a12;
+    > article {
+      border-right: 2px solid #0c356a44;
+      width: 30vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      > h4 {
+        justify-self: flex-start;
+        margin-top: 5vh;
+      }
+      .data,
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: fit-content;
+        width: 80vw;
+        padding: 3% 0;
+      }
+      > .data > h5 {
+        margin: 5% 7%;
+      }
+      > ul > li {
+        margin: 2% 0;
+      }
+    }
+  }
+  .sc-icons {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+  }
+
+  .carou,
+  .carou-body {
+    width: 70vw;
+  }
+  .caro {
+    left: 15%;
+  }
+
+  .icon--facebook {
+    color: rgb(40, 85, 182);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .icon--linkedin {
+    color: rgb(30, 48, 80);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .icon--twitter {
+    color: #292929;
+    font-size: 30px;
+  }
+
+  .icon--instagram {
+    color: rgb(195, 11, 85);
+    font-size: 30px;
+  }
+
+  .icon {
+    outline-offset: 4px;
+  }
+
+  .icon i {
+    animation: shake 0.25s;
+  }
+
+  .icon--instagram {
+    background-image: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    outline-color: #a02d76;
+    color: white;
+  }
+
+  .icon--twitter {
+    background-color: #292929;
+    outline-color: #191919;
+    color: white;
+  }
+
+  .icon--linkedin {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+    color: white;
+  }
+
+  .icon--facebook {
+    background-color: rgb(40, 85, 182);
+    outline-color: rgb(40, 85, 182);
+    color: white;
+  }
+
+
+article#social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  width: 90vw;
+  padding:2% 5%;
+  @media screen and(min-width:1000px) {
+    padding-left: 10vw;
+  }
+}
+.sc-icons{
+  margin: 0 5% 0 ;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media screen and (max-width: 850px) {
+  img#poster {
+    width: 80vw;
+  }
+}
+#response{
+  width: 100%;
+  padding: 70px 0;
+  background: #d3d3d3;
+}
