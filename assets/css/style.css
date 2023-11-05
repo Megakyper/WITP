@@ -113,7 +113,7 @@ h4,
 h5,
 h6 {
   font-family: "Josefin Sans", sans-serif;
-  color: #6674FF;
+  color: #6674ff;
   margin-top: 0px;
   font-style: normal;
   font-weight: 400;
@@ -121,7 +121,7 @@ h6 {
 }
 p {
   font-family: "Mulish", sans-serif;
-  color: #454FAB;
+  color: #454fab;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -2483,7 +2483,7 @@ hr {
 }
 .slider-area.slider-area2,
 .slider-area2.slider-area2 {
-  background:linear-gradient(#6674FF 0 ,#0E101C 75%);
+  background: linear-gradient(#6674ff 0, #0e101c 75%);
 }
 .slider-area .hero__caption,
 .slider-area2 .hero__caption {
@@ -3399,7 +3399,7 @@ hr {
   color: #4255a4;
 }
 .courses-area .properties__caption P {
-  color: #CDD1FF;
+  color: #cdd1ff;
 }
 .courses-area .properties__caption P span {
   color: #c86fff;
@@ -3424,7 +3424,7 @@ hr {
 }
 .courses-area .properties__footer .restaurant-name p {
   display: inline-block;
-  color: #CDD1FF;
+  color: #cdd1ff;
 }
 .courses-area .properties__footer .restaurant-name p span {
   color: #ff7b2e;
@@ -3579,26 +3579,58 @@ hr {
 }
 .services-area {
   margin-top: -100px;
-  background-color: #0E101C;
+  background-color: #0e101c;
 }
 .services-area.services-area2 {
   margin-top: 0;
 }
 .services-area .single-services {
   display: flex;
-  box-shadow: 0px 25px 60px rgba(66, 85, 164, 0.06);
   padding: 29px 24px;
   border-radius: 20px;
-  background: #fff;
+  .features-caption>h3{
+  color: white;}
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .services-area .single-services {
     padding: 18px 14px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .dip {
+    display: none;
+  }
+}
+.dipx {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+@media screen and (min-width: 1000px) {
+  display: none;
+}
+}
+.cards-small {
+  margin: 3.33vw;
+  width: 40vw;
+  justify-content: space-evenly;
+  height: max-content;
+  border-radius: 20px;
+  padding: 18px;
+  > img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    filter:invert(1);
+  }
+  >h3{
+    margin-top: 20px;
+    color: white;
+  }
+}
 @media (max-width: 575px) {
   .services-area .single-services {
     padding: 18px 14px;
+    width: 30%;
+    flex-direction: column;
   }
 }
 .services-area .single-services .features-icon {
@@ -5142,9 +5174,9 @@ hr {
 }
 .theme-colors,
 .header-sticky.sticky-bar {
-  background: -mozlinear-gradient(#6674FF 0 ,#0E101C 75%);
-  background: -webkitlinear-gradient(#6674FF 0 ,#0E101C 75%);
-  background:linear-gradient(#6674FF 0 ,#0E101C 75%);
+  background: -mozlinear-gradient(#6674ff 0, #0e101c 75%);
+  background: -webkitlinear-gradient(#6674ff 0, #0e101c 75%);
+  background: linear-gradient(#6674ff 0, #0e101c 75%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c054ff', endColorstr='#5274ff',GradientType=0 );
 }
 .about-area1 .support-wrapper .left-content1 .about-icon {
